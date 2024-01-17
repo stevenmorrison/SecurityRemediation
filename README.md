@@ -18,6 +18,9 @@ To use this script, follow these steps:
 3. Navigate to the directory containing this script.
 4. Execute the script by typing `.\RemoveOneLaunch (2).ps1` and pressing Enter.
 
+   To run in memory IEX ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/stevenmorrison/SecurityRemediation/main/RemoveOneLaunch.ps1'))
+
+
 ## Caution
 - This script performs removal actions that can affect software functionality. Use it with caution.
 - Verify that the software components being targeted are not required for your system's or applications' proper functioning.
